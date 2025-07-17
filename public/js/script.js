@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io(); // This works if client and server are on the same domain
 if (navigator.geolocation) {
     navigator.geolocation.watchPosition(
         (position) => {
